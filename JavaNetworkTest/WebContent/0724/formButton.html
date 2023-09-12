@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="../images/check.png">
+<style type="text/css">
+	span {
+		display:inline-block;
+		width:100px;
+	}
+</style>
+</head>
+<body>
+	<form name="input" action="getid.jsp" method="get">
+	 	<span>물품가격:</span>	 
+		<input id="price" type="number" value="20000" max="50000" min="10000" name="user">
+		<br> 
+		<span>수량:</span> 
+		<input id="qty" type="number" name="su"><br> 
+		<input type="button" value="계산" onclick="calc()")>
+	</form>
+</body>
+<script>
+	
+	function calc(){
+		
+		var priceVal = document.querySelector("#price").value;
+		var qtyVal = document.querySelector("#qty").value;
+		
+		alert(priceVal * qtyVal + "원 입니다.")
+		
+	}
+</script>
+</html>

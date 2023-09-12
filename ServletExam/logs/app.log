@@ -1,0 +1,310 @@
+2023-08-25 14:11:31.799 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-25 14:11:31.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:11:31.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:11:31.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:11:31.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:11:32.021 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:11:32.395 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1871680329.
+2023-08-25 14:11:32.397 [main] DEBUG member.selectAll - ==>  Preparing: SELECT MEM_ID as MEMID, MEM_NAME as MEMNAME, MEM_TEL as MEMTEL, MEM_ADDR as MEMADDR, REG_DT as REGDT FROM MYMEMBER 
+2023-08-25 14:11:32.468 [main] DEBUG member.selectAll - ==> Parameters: 
+2023-08-25 14:11:32.496 [main] TRACE member.selectAll - <==    Columns: MEMID, MEMNAME, MEMTEL, MEMADDR, REGDT
+2023-08-25 14:11:32.497 [main] TRACE member.selectAll - <==        Row: asd123, 111, 111, 111, 2023-08-03 16:41:15
+2023-08-25 14:11:32.498 [main] TRACE member.selectAll - <==        Row: d002, 이상민, 010-333-3333, 대구시, 2023-08-09 15:39:58
+2023-08-25 14:11:32.498 [main] TRACE member.selectAll - <==        Row: a001, 손동영, 000-3333, 부산시, 2023-08-03 16:59:38
+2023-08-25 14:11:32.498 [main] TRACE member.selectAll - <==        Row: 야인시대, 김두환, 020-222-3333, 굴다리, 2023-08-08 18:30:33
+2023-08-25 14:11:32.499 [main] TRACE member.selectAll - <==        Row: 김팔팔, 팔팔, 123, 123, 2023-08-03 17:19:58
+2023-08-25 14:11:32.499 [main] TRACE member.selectAll - <==        Row: fff, 213, 123, 123, 2023-08-03 17:22:09
+2023-08-25 14:11:32.499 [main] TRACE member.selectAll - <==        Row: pgpg, 123, 3, 2, 2023-08-03 17:22:12
+2023-08-25 14:11:32.499 [main] TRACE member.selectAll - <==        Row: 322, 321, 123, 31, 2023-08-03 17:33:10
+2023-08-25 14:11:32.499 [main] TRACE member.selectAll - <==        Row: 가그리, 가그리, 가그리, 가그리, 2023-08-03 18:36:15
+2023-08-25 14:11:32.500 [main] TRACE member.selectAll - <==        Row: kimchi, 김치, 222, 3, 2023-08-04 16:29:55
+2023-08-25 14:11:32.500 [main] TRACE member.selectAll - <==        Row: 4322340, eoqwe, wqeq, 231, 2023-08-03 18:48:50
+2023-08-25 14:11:32.500 [main] TRACE member.selectAll - <==        Row: 깨구리, 개구리, 개굴, 연못, 2023-08-04 08:26:15
+2023-08-25 14:11:32.500 [main] TRACE member.selectAll - <==        Row: 123, 123, 123, 123, 2023-08-04 15:38:45
+2023-08-25 14:11:32.500 [main] TRACE member.selectAll - <==        Row: 김갈갈, 갈갈, 010-33, 21, 2023-08-07 16:18:10
+2023-08-25 14:11:32.501 [main] TRACE member.selectAll - <==        Row: qweqeqw, eqweq, eqweq, eqweq, 2023-08-09 16:26:48
+2023-08-25 14:11:32.501 [main] TRACE member.selectAll - <==        Row: 거거지, 거지, 거지, 거지, 2023-08-08 18:40:00
+2023-08-25 14:11:32.502 [main] TRACE member.selectAll - <==        Row: 거거34지, 거거거기, 020-245-6633, 저기, 2023-08-08 19:12:38
+2023-08-25 14:11:32.502 [main] TRACE member.selectAll - <==        Row: dfas, xv, sdfsdf, dfs, 2023-08-09 17:39:33
+2023-08-25 14:11:32.502 [main] TRACE member.selectAll - <==        Row: qwee, qweqwe, qweqweqw, qweqwe, 2023-08-09 17:36:04
+2023-08-25 14:11:32.503 [main] TRACE member.selectAll - <==        Row: 555, 555, 566, 999, 2023-08-09 17:41:03
+2023-08-25 14:11:32.503 [main] TRACE member.selectAll - <==        Row: 123ㅂ, 123ㅂㅁ, 123ㄷㄷ, 123ㄷ, 2023-08-09 18:24:06
+2023-08-25 14:11:32.503 [main] TRACE member.selectAll - <==        Row: p0p0, ppp, 000, ppp, 2023-08-09 18:51:37
+2023-08-25 14:11:32.503 [main] TRACE member.selectAll - <==        Row: fkfk, ppp, weq, qwe, 2023-08-09 18:51:42
+2023-08-25 14:11:32.503 [main] TRACE member.selectAll - <==        Row: bbvc, 45, fd, g, 2023-08-09 19:30:37
+2023-08-25 14:11:32.504 [main] TRACE member.selectAll - <==        Row: gfldfp, gf, dg, df, 2023-08-09 20:16:03
+2023-08-25 14:11:32.504 [main] TRACE member.selectAll - <==        Row: 524, 56, 54, 2, 2023-08-09 20:20:31
+2023-08-25 14:11:32.504 [main] TRACE member.selectAll - <==        Row: b001, rorw, 010-2-2, 313, 2023-08-10 14:13:55
+2023-08-25 14:11:32.504 [main] TRACE member.selectAll - <==        Row: vcvc, dfadsa, sdferw, 342, 2023-08-10 14:19:42
+2023-08-25 14:11:32.504 [main] TRACE member.selectAll - <==        Row: gfhggfh, fghfd, sreter, wert, 2023-08-10 14:20:29
+2023-08-25 14:11:32.504 [main] TRACE member.selectAll - <==        Row: fcvbc, cdd, ewr, te, 2023-08-10 14:23:01
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: ㄹ0ㄹㄴㅇ0ㄴ, ㅏㄱ잳, 340234, 3242ㄱ, 2023-08-10 14:28:38
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: ㅍㅊㅌㅍ, ㄴㅇㄹㄴ, ㄴㅇㄹ, ㄴㅇㄹ, 2023-08-10 14:29:52
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: ;;;, ㅍㅍ;ㅍ, ㅍ;ㅍ;ㅍ, ㅇㄴㄹ, 2023-08-10 14:30:02
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: apapap, eekeke, jfjf, 2312, 2023-08-10 14:32:48
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: ooeo, 0210, 13201, 13123, 2023-08-10 14:34:09
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: vlp, ewprwepr, werpwer, wer, 2023-08-10 14:34:28
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: 0r0r0r, 434, 43534, 345345, 2023-08-10 14:34:53
+2023-08-25 14:11:32.505 [main] TRACE member.selectAll - <==        Row: 0202013, qweqwe, fdksdfk, sdfl, 2023-08-10 14:35:36
+2023-08-25 14:11:32.506 [main] TRACE member.selectAll - <==        Row: tth, ghgh, tghtgh, tghgt, 2023-08-10 14:36:24
+2023-08-25 14:11:32.506 [main] TRACE member.selectAll - <==        Row: fdsdfsd, e123, erqwewe, rorowe, 2023-08-10 14:37:40
+2023-08-25 14:11:32.506 [main] TRACE member.selectAll - <==        Row: 0404040, 34234o, 34423o, 234o, 2023-08-10 14:58:04
+2023-08-25 14:11:32.506 [main] TRACE member.selectAll - <==        Row: ㄱㅈㄷ, ㄱㄷㅈ, ㅈㄷㄱㅈㄷㄱ, ㄷㅈㄱ, 2023-08-10 15:07:25
+2023-08-25 14:11:32.506 [main] DEBUG member.selectAll - <==      Total: 42
+2023-08-25 14:11:32.507 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@6f8f9349]
+2023-08-25 14:11:32.507 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1871680329 to pool.
+2023-08-25 14:16:57.384 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-25 14:16:57.474 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:16:57.474 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:16:57.475 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:16:57.475 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:16:57.528 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:16:57.883 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 534753234.
+2023-08-25 14:16:57.884 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ?; 
+2023-08-25 14:16:57.950 [main] DEBUG member.checkMember - ==> Parameters: fff(String)
+2023-08-25 14:16:57.967 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:16:57.967 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:18:41.245 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-25 14:18:41.334 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:18:41.334 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:18:41.335 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:18:41.335 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:18:41.388 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:18:41.740 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1527214863.
+2023-08-25 14:18:41.742 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:18:41.809 [main] DEBUG member.checkMember - ==> Parameters: fff(String)
+2023-08-25 14:18:41.835 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:18:41.839 [main] TRACE member.checkMember - <==        Row: 1
+2023-08-25 14:18:41.840 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:18:41.840 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:41.840 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:18:44.637 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:18:44.637 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1527214863 from pool.
+2023-08-25 14:18:44.638 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:18:44.638 [main] DEBUG member.checkMember - ==> Parameters: lsls(String)
+2023-08-25 14:18:44.638 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:18:44.639 [main] TRACE member.checkMember - <==        Row: 0
+2023-08-25 14:18:44.639 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:18:44.639 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:44.639 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:18:48.438 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:18:48.438 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1527214863 from pool.
+2023-08-25 14:18:48.438 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:48.438 [main] DEBUG member.insertMember - ==>  Preparing: INSERT INTO MYMEMBER (MEM_ID, MEM_NAME, MEM_TEL, MEM_ADDR, reg_dt) VALUES (? ,? , ?, ?, sysdate) 
+2023-08-25 14:18:48.439 [main] DEBUG member.insertMember - ==> Parameters: lsls(String), spsp(String), qpqpq(String), qwe(String)
+2023-08-25 14:18:48.440 [main] DEBUG member.insertMember - <==    Updates: 1
+2023-08-25 14:18:48.440 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:48.445 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:48.445 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:48.445 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:18:50.830 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:18:50.830 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1527214863 from pool.
+2023-08-25 14:18:50.830 [main] DEBUG member.selectAll - ==>  Preparing: SELECT MEM_ID as MEMID, MEM_NAME as MEMNAME, MEM_TEL as MEMTEL, MEM_ADDR as MEMADDR, REG_DT as REGDT FROM MYMEMBER 
+2023-08-25 14:18:50.830 [main] DEBUG member.selectAll - ==> Parameters: 
+2023-08-25 14:18:50.839 [main] TRACE member.selectAll - <==    Columns: MEMID, MEMNAME, MEMTEL, MEMADDR, REGDT
+2023-08-25 14:18:50.839 [main] TRACE member.selectAll - <==        Row: asd123, 111, 111, 111, 2023-08-03 16:41:15
+2023-08-25 14:18:50.841 [main] TRACE member.selectAll - <==        Row: d002, 이상민, 010-333-3333, 대구시, 2023-08-09 15:39:58
+2023-08-25 14:18:50.841 [main] TRACE member.selectAll - <==        Row: a001, 손동영, 000-3333, 부산시, 2023-08-03 16:59:38
+2023-08-25 14:18:50.842 [main] TRACE member.selectAll - <==        Row: 야인시대, 김두환, 020-222-3333, 굴다리, 2023-08-08 18:30:33
+2023-08-25 14:18:50.842 [main] TRACE member.selectAll - <==        Row: 김팔팔, 팔팔, 123, 123, 2023-08-03 17:19:58
+2023-08-25 14:18:50.843 [main] TRACE member.selectAll - <==        Row: fff, 213, 123, 123, 2023-08-03 17:22:09
+2023-08-25 14:18:50.843 [main] TRACE member.selectAll - <==        Row: pgpg, 123, 3, 2, 2023-08-03 17:22:12
+2023-08-25 14:18:50.843 [main] TRACE member.selectAll - <==        Row: 322, 321, 123, 31, 2023-08-03 17:33:10
+2023-08-25 14:18:50.843 [main] TRACE member.selectAll - <==        Row: 가그리, 가그리, 가그리, 가그리, 2023-08-03 18:36:15
+2023-08-25 14:18:50.843 [main] TRACE member.selectAll - <==        Row: kimchi, 김치, 222, 3, 2023-08-04 16:29:55
+2023-08-25 14:18:50.844 [main] TRACE member.selectAll - <==        Row: 4322340, eoqwe, wqeq, 231, 2023-08-03 18:48:50
+2023-08-25 14:18:50.844 [main] TRACE member.selectAll - <==        Row: 깨구리, 개구리, 개굴, 연못, 2023-08-04 08:26:15
+2023-08-25 14:18:50.845 [main] TRACE member.selectAll - <==        Row: 123, 123, 123, 123, 2023-08-04 15:38:45
+2023-08-25 14:18:50.845 [main] TRACE member.selectAll - <==        Row: 김갈갈, 갈갈, 010-33, 21, 2023-08-07 16:18:10
+2023-08-25 14:18:50.845 [main] TRACE member.selectAll - <==        Row: qweqeqw, eqweq, eqweq, eqweq, 2023-08-09 16:26:48
+2023-08-25 14:18:50.845 [main] TRACE member.selectAll - <==        Row: 거거지, 거지, 거지, 거지, 2023-08-08 18:40:00
+2023-08-25 14:18:50.847 [main] TRACE member.selectAll - <==        Row: 거거34지, 거거거기, 020-245-6633, 저기, 2023-08-08 19:12:38
+2023-08-25 14:18:50.847 [main] TRACE member.selectAll - <==        Row: dfas, xv, sdfsdf, dfs, 2023-08-09 17:39:33
+2023-08-25 14:18:50.847 [main] TRACE member.selectAll - <==        Row: qwee, qweqwe, qweqweqw, qweqwe, 2023-08-09 17:36:04
+2023-08-25 14:18:50.847 [main] TRACE member.selectAll - <==        Row: 555, 555, 566, 999, 2023-08-09 17:41:03
+2023-08-25 14:18:50.848 [main] TRACE member.selectAll - <==        Row: 123ㅂ, 123ㅂㅁ, 123ㄷㄷ, 123ㄷ, 2023-08-09 18:24:06
+2023-08-25 14:18:50.848 [main] TRACE member.selectAll - <==        Row: p0p0, ppp, 000, ppp, 2023-08-09 18:51:37
+2023-08-25 14:18:50.848 [main] TRACE member.selectAll - <==        Row: fkfk, ppp, weq, qwe, 2023-08-09 18:51:42
+2023-08-25 14:18:50.849 [main] TRACE member.selectAll - <==        Row: bbvc, 45, fd, g, 2023-08-09 19:30:37
+2023-08-25 14:18:50.849 [main] TRACE member.selectAll - <==        Row: gfldfp, gf, dg, df, 2023-08-09 20:16:03
+2023-08-25 14:18:50.849 [main] TRACE member.selectAll - <==        Row: 524, 56, 54, 2, 2023-08-09 20:20:31
+2023-08-25 14:18:50.849 [main] TRACE member.selectAll - <==        Row: b001, rorw, 010-2-2, 313, 2023-08-10 14:13:55
+2023-08-25 14:18:50.850 [main] TRACE member.selectAll - <==        Row: vcvc, dfadsa, sdferw, 342, 2023-08-10 14:19:42
+2023-08-25 14:18:50.850 [main] TRACE member.selectAll - <==        Row: gfhggfh, fghfd, sreter, wert, 2023-08-10 14:20:29
+2023-08-25 14:18:50.850 [main] TRACE member.selectAll - <==        Row: fcvbc, cdd, ewr, te, 2023-08-10 14:23:01
+2023-08-25 14:18:50.850 [main] TRACE member.selectAll - <==        Row: ㄹ0ㄹㄴㅇ0ㄴ, ㅏㄱ잳, 340234, 3242ㄱ, 2023-08-10 14:28:38
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: ㅍㅊㅌㅍ, ㄴㅇㄹㄴ, ㄴㅇㄹ, ㄴㅇㄹ, 2023-08-10 14:29:52
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: ;;;, ㅍㅍ;ㅍ, ㅍ;ㅍ;ㅍ, ㅇㄴㄹ, 2023-08-10 14:30:02
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: apapap, eekeke, jfjf, 2312, 2023-08-10 14:32:48
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: ooeo, 0210, 13201, 13123, 2023-08-10 14:34:09
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: vlp, ewprwepr, werpwer, wer, 2023-08-10 14:34:28
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: 0r0r0r, 434, 43534, 345345, 2023-08-10 14:34:53
+2023-08-25 14:18:50.851 [main] TRACE member.selectAll - <==        Row: 0202013, qweqwe, fdksdfk, sdfl, 2023-08-10 14:35:36
+2023-08-25 14:18:50.852 [main] TRACE member.selectAll - <==        Row: tth, ghgh, tghtgh, tghgt, 2023-08-10 14:36:24
+2023-08-25 14:18:50.852 [main] TRACE member.selectAll - <==        Row: fdsdfsd, e123, erqwewe, rorowe, 2023-08-10 14:37:40
+2023-08-25 14:18:50.852 [main] TRACE member.selectAll - <==        Row: 0404040, 34234o, 34423o, 234o, 2023-08-10 14:58:04
+2023-08-25 14:18:50.852 [main] TRACE member.selectAll - <==        Row: ㄱㅈㄷ, ㄱㄷㅈ, ㅈㄷㄱㅈㄷㄱ, ㄷㅈㄱ, 2023-08-10 15:07:25
+2023-08-25 14:18:50.852 [main] TRACE member.selectAll - <==        Row: lsls, spsp, qpqpq, qwe, 2023-08-25 14:18:48
+2023-08-25 14:18:50.852 [main] DEBUG member.selectAll - <==      Total: 43
+2023-08-25 14:18:50.852 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:18:50.853 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:19:30.453 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:19:30.453 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1527214863 from pool.
+2023-08-25 14:19:30.454 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:19:30.454 [main] DEBUG member.checkMember - ==> Parameters: 456(String)
+2023-08-25 14:19:30.454 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:19:30.455 [main] TRACE member.checkMember - <==        Row: 0
+2023-08-25 14:19:30.455 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:19:30.455 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:19:30.455 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:19:35.413 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:19:35.414 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1527214863 from pool.
+2023-08-25 14:19:35.414 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:19:35.415 [main] DEBUG member.insertMember - ==>  Preparing: INSERT INTO MYMEMBER (MEM_ID, MEM_NAME, MEM_TEL, MEM_ADDR, reg_dt) VALUES (? ,? , ?, ?, sysdate) 
+2023-08-25 14:19:35.415 [main] DEBUG member.insertMember - ==> Parameters: 456(String), 546(String), 654(String),  564 6645 (String)
+2023-08-25 14:19:35.416 [main] DEBUG member.insertMember - <==    Updates: 1
+2023-08-25 14:19:35.416 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:19:35.421 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:19:35.421 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:19:35.421 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:19:38.534 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:19:38.534 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1527214863 from pool.
+2023-08-25 14:19:38.534 [main] DEBUG member.selectAll - ==>  Preparing: SELECT MEM_ID as MEMID, MEM_NAME as MEMNAME, MEM_TEL as MEMTEL, MEM_ADDR as MEMADDR, REG_DT as REGDT FROM MYMEMBER 
+2023-08-25 14:19:38.534 [main] DEBUG member.selectAll - ==> Parameters: 
+2023-08-25 14:19:38.535 [main] TRACE member.selectAll - <==    Columns: MEMID, MEMNAME, MEMTEL, MEMADDR, REGDT
+2023-08-25 14:19:38.535 [main] TRACE member.selectAll - <==        Row: asd123, 111, 111, 111, 2023-08-03 16:41:15
+2023-08-25 14:19:38.536 [main] TRACE member.selectAll - <==        Row: d002, 이상민, 010-333-3333, 대구시, 2023-08-09 15:39:58
+2023-08-25 14:19:38.536 [main] TRACE member.selectAll - <==        Row: a001, 손동영, 000-3333, 부산시, 2023-08-03 16:59:38
+2023-08-25 14:19:38.536 [main] TRACE member.selectAll - <==        Row: 야인시대, 김두환, 020-222-3333, 굴다리, 2023-08-08 18:30:33
+2023-08-25 14:19:38.536 [main] TRACE member.selectAll - <==        Row: 김팔팔, 팔팔, 123, 123, 2023-08-03 17:19:58
+2023-08-25 14:19:38.536 [main] TRACE member.selectAll - <==        Row: fff, 213, 123, 123, 2023-08-03 17:22:09
+2023-08-25 14:19:38.537 [main] TRACE member.selectAll - <==        Row: pgpg, 123, 3, 2, 2023-08-03 17:22:12
+2023-08-25 14:19:38.537 [main] TRACE member.selectAll - <==        Row: 322, 321, 123, 31, 2023-08-03 17:33:10
+2023-08-25 14:19:38.537 [main] TRACE member.selectAll - <==        Row: 가그리, 가그리, 가그리, 가그리, 2023-08-03 18:36:15
+2023-08-25 14:19:38.537 [main] TRACE member.selectAll - <==        Row: kimchi, 김치, 222, 3, 2023-08-04 16:29:55
+2023-08-25 14:19:38.538 [main] TRACE member.selectAll - <==        Row: 4322340, eoqwe, wqeq, 231, 2023-08-03 18:48:50
+2023-08-25 14:19:38.538 [main] TRACE member.selectAll - <==        Row: 깨구리, 개구리, 개굴, 연못, 2023-08-04 08:26:15
+2023-08-25 14:19:38.538 [main] TRACE member.selectAll - <==        Row: 123, 123, 123, 123, 2023-08-04 15:38:45
+2023-08-25 14:19:38.538 [main] TRACE member.selectAll - <==        Row: 김갈갈, 갈갈, 010-33, 21, 2023-08-07 16:18:10
+2023-08-25 14:19:38.538 [main] TRACE member.selectAll - <==        Row: qweqeqw, eqweq, eqweq, eqweq, 2023-08-09 16:26:48
+2023-08-25 14:19:38.538 [main] TRACE member.selectAll - <==        Row: 거거지, 거지, 거지, 거지, 2023-08-08 18:40:00
+2023-08-25 14:19:38.539 [main] TRACE member.selectAll - <==        Row: 거거34지, 거거거기, 020-245-6633, 저기, 2023-08-08 19:12:38
+2023-08-25 14:19:38.539 [main] TRACE member.selectAll - <==        Row: dfas, xv, sdfsdf, dfs, 2023-08-09 17:39:33
+2023-08-25 14:19:38.539 [main] TRACE member.selectAll - <==        Row: qwee, qweqwe, qweqweqw, qweqwe, 2023-08-09 17:36:04
+2023-08-25 14:19:38.539 [main] TRACE member.selectAll - <==        Row: 555, 555, 566, 999, 2023-08-09 17:41:03
+2023-08-25 14:19:38.540 [main] TRACE member.selectAll - <==        Row: 123ㅂ, 123ㅂㅁ, 123ㄷㄷ, 123ㄷ, 2023-08-09 18:24:06
+2023-08-25 14:19:38.540 [main] TRACE member.selectAll - <==        Row: p0p0, ppp, 000, ppp, 2023-08-09 18:51:37
+2023-08-25 14:19:38.540 [main] TRACE member.selectAll - <==        Row: fkfk, ppp, weq, qwe, 2023-08-09 18:51:42
+2023-08-25 14:19:38.540 [main] TRACE member.selectAll - <==        Row: bbvc, 45, fd, g, 2023-08-09 19:30:37
+2023-08-25 14:19:38.540 [main] TRACE member.selectAll - <==        Row: gfldfp, gf, dg, df, 2023-08-09 20:16:03
+2023-08-25 14:19:38.541 [main] TRACE member.selectAll - <==        Row: 524, 56, 54, 2, 2023-08-09 20:20:31
+2023-08-25 14:19:38.541 [main] TRACE member.selectAll - <==        Row: b001, rorw, 010-2-2, 313, 2023-08-10 14:13:55
+2023-08-25 14:19:38.541 [main] TRACE member.selectAll - <==        Row: vcvc, dfadsa, sdferw, 342, 2023-08-10 14:19:42
+2023-08-25 14:19:38.541 [main] TRACE member.selectAll - <==        Row: gfhggfh, fghfd, sreter, wert, 2023-08-10 14:20:29
+2023-08-25 14:19:38.541 [main] TRACE member.selectAll - <==        Row: fcvbc, cdd, ewr, te, 2023-08-10 14:23:01
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: ㄹ0ㄹㄴㅇ0ㄴ, ㅏㄱ잳, 340234, 3242ㄱ, 2023-08-10 14:28:38
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: ㅍㅊㅌㅍ, ㄴㅇㄹㄴ, ㄴㅇㄹ, ㄴㅇㄹ, 2023-08-10 14:29:52
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: ;;;, ㅍㅍ;ㅍ, ㅍ;ㅍ;ㅍ, ㅇㄴㄹ, 2023-08-10 14:30:02
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: apapap, eekeke, jfjf, 2312, 2023-08-10 14:32:48
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: ooeo, 0210, 13201, 13123, 2023-08-10 14:34:09
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: vlp, ewprwepr, werpwer, wer, 2023-08-10 14:34:28
+2023-08-25 14:19:38.542 [main] TRACE member.selectAll - <==        Row: 0r0r0r, 434, 43534, 345345, 2023-08-10 14:34:53
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: 0202013, qweqwe, fdksdfk, sdfl, 2023-08-10 14:35:36
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: tth, ghgh, tghtgh, tghgt, 2023-08-10 14:36:24
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: fdsdfsd, e123, erqwewe, rorowe, 2023-08-10 14:37:40
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: 0404040, 34234o, 34423o, 234o, 2023-08-10 14:58:04
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: ㄱㅈㄷ, ㄱㄷㅈ, ㅈㄷㄱㅈㄷㄱ, ㄷㅈㄱ, 2023-08-10 15:07:25
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: lsls, spsp, qpqpq, qwe, 2023-08-25 14:18:48
+2023-08-25 14:19:38.543 [main] TRACE member.selectAll - <==        Row: 456, 546, 654,  564 6645 , 2023-08-25 14:19:35
+2023-08-25 14:19:38.543 [main] DEBUG member.selectAll - <==      Total: 44
+2023-08-25 14:19:38.544 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b07730f]
+2023-08-25 14:19:38.544 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1527214863 to pool.
+2023-08-25 14:20:19.311 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-25 14:20:19.396 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:19.396 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:19.396 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:19.396 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:19.452 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:20:19.791 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 534753234.
+2023-08-25 14:20:19.792 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:20:19.860 [main] DEBUG member.checkMember - ==> Parameters: 123(String)
+2023-08-25 14:20:19.878 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:20:19.882 [main] TRACE member.checkMember - <==        Row: 1
+2023-08-25 14:20:19.883 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:20:19.883 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:19.884 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:20:21.413 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:20:21.414 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 534753234 from pool.
+2023-08-25 14:20:21.414 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:20:21.414 [main] DEBUG member.checkMember - ==> Parameters: eee(String)
+2023-08-25 14:20:21.415 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:20:21.415 [main] TRACE member.checkMember - <==        Row: 0
+2023-08-25 14:20:21.415 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:20:21.415 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:21.415 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:20:25.533 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:20:25.533 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 534753234 from pool.
+2023-08-25 14:20:25.534 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:25.534 [main] DEBUG member.insertMember - ==>  Preparing: INSERT INTO MYMEMBER (MEM_ID, MEM_NAME, MEM_TEL, MEM_ADDR, reg_dt) VALUES (? ,? , ?, ?, sysdate) 
+2023-08-25 14:20:25.534 [main] DEBUG member.insertMember - ==> Parameters: eee(String), (String), qqq(String), wqe(String)
+2023-08-25 14:20:25.540 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:25.540 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:25.540 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:25.540 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:20:52.447 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-25 14:20:52.535 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:52.535 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:52.535 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:52.535 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:20:52.592 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:20:52.929 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 534753234.
+2023-08-25 14:20:52.931 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:20:52.997 [main] DEBUG member.checkMember - ==> Parameters: qweqwe(String)
+2023-08-25 14:20:53.015 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:20:53.019 [main] TRACE member.checkMember - <==        Row: 0
+2023-08-25 14:20:53.020 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:20:53.020 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:20:53.020 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:21:01.037 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:21:01.038 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 534753234 from pool.
+2023-08-25 14:21:01.038 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:01.038 [main] DEBUG member.insertMember - ==>  Preparing: INSERT INTO MYMEMBER (MEM_ID, MEM_NAME, MEM_TEL, MEM_ADDR, reg_dt) VALUES (? ,? , ?, ?, sysdate) 
+2023-08-25 14:21:01.038 [main] DEBUG member.insertMember - ==> Parameters: qweqwe(String),  qwe(String),  qweqwe qwe (String), qweqweqwe (String)
+2023-08-25 14:21:01.039 [main] DEBUG member.insertMember - <==    Updates: 1
+2023-08-25 14:21:01.039 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:01.045 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:01.045 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:01.045 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:21:12.990 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:21:12.990 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 534753234 from pool.
+2023-08-25 14:21:12.990 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:21:12.990 [main] DEBUG member.checkMember - ==> Parameters: qewqwe(String)
+2023-08-25 14:21:12.991 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:21:12.991 [main] TRACE member.checkMember - <==        Row: 0
+2023-08-25 14:21:12.991 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:21:12.991 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:12.992 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:21:31.262 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-25 14:21:31.349 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:21:31.349 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:21:31.349 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:21:31.349 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-25 14:21:31.403 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:21:31.746 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 534753234.
+2023-08-25 14:21:31.748 [main] DEBUG member.checkMember - ==>  Preparing: SELECT COUNT(*) AS CNT FROM MYMEMBER WHERE MEM_ID = ? 
+2023-08-25 14:21:31.813 [main] DEBUG member.checkMember - ==> Parameters: asdsd(String)
+2023-08-25 14:21:31.832 [main] TRACE member.checkMember - <==    Columns: CNT
+2023-08-25 14:21:31.835 [main] TRACE member.checkMember - <==        Row: 0
+2023-08-25 14:21:31.836 [main] DEBUG member.checkMember - <==      Total: 1
+2023-08-25 14:21:31.837 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:31.837 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-25 14:21:37.365 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-25 14:21:37.365 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 534753234 from pool.
+2023-08-25 14:21:37.366 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:37.366 [main] DEBUG member.insertMember - ==>  Preparing: INSERT INTO MYMEMBER (MEM_ID, MEM_NAME, MEM_TEL, MEM_ADDR, reg_dt) VALUES (? ,? , ?, ?, sysdate) 
+2023-08-25 14:21:37.366 [main] DEBUG member.insertMember - ==> Parameters: asdsd(String),  asds(String), a sd asasd (String), asdas as dad(String)
+2023-08-25 14:21:37.367 [main] DEBUG member.insertMember - <==    Updates: 1
+2023-08-25 14:21:37.367 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:37.373 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:37.373 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-25 14:21:37.373 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.

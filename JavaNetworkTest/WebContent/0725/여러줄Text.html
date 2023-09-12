@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="여러줄.jsp" method="post">
+	
+		<div style="display:grid; grid-template-columns: 100px 500px">
+			<label>이름</label>
+			<input type="text" name="name">
+			<label>아이디</label>
+			<input type="text" name="id">	
+		
+	
+			<label>소개</label>
+			<textarea style="text-align:left; resize:none" rows="5" cols="50" name="introduce"></textarea>
+
+			
+		</div>
+		<label for="food">음식asasd</label>
+		<input id="food" name="food" value="food" type="checkbox">
+		<label for="snack">과자</label>
+		<input id="snack" name="food" value="snack" type="checkbox">
+		<label for="fruit">과일</label>
+		<input id="fruit" name="food" value="fruit" type="checkbox">
+		<button>전송</button>
+		<button type="reset">초기화</button>
+		
+	</form>
+
+</body>
+</html>

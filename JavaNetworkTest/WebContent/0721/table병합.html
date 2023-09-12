@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table 병합</title>
+
+<style>
+	
+	body{
+		text-align: center;
+		margin:auto;
+	}
+
+	table{
+		border : 2px solid #aaa;
+		border-collapse : collapse;
+		width:500px;
+		margin:auto;
+	}
+	
+	tr td {
+		border: 2px solid #aaa;
+		height: 40px;
+	}
+
+</style>
+</head>
+<body>
+	<h1>테이블 연습</h1>
+	<table>
+		<tbody>
+			<tr>
+				<td colspan="2"></td>
+				<td colspan="2"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="4"></td>
+				<td colspan="2"></td>
+			</tr>
+			<tr>
+				<td colspan="4"></td>
+				<td colspan="2" rowspan="2"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+	
+</body>
+</html>

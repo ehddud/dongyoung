@@ -1,0 +1,25 @@
+변수 선언
+var a
+let a 
+const a = 10;
+
+id 이름으로 검색
+var a = document.getElementById("id이름");
+var a = document.querySelector("#id이름");
+
+class 이름으로 검색
+var a = documnet.getElementsByClassName("class이름");
+var a = document.querySelectorAll(".class이름");
+var a = document.querySelector(".class이름");
+const a = 10;
+
+name 속성으로 검색
+
+tag 이름으로 검색하기
+var a = document.getElementsByTagName('tag이름');
+var a = document.querySelectorAll('tag이름');
+
+검색된 요소에서 값 가져오기
+.value - input 요소, textarea, select
+.innerHTML - input 요소가 아닌 그 외 요소 / 가져오는 값 내부에 html태그가 포함되어 있는 경우
+.innerText - input 요소가 아닌 그 외 요소 / 가져오는 값 내부에 html태그가 포함되어 있지 않은 경우

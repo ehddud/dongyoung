@@ -1,0 +1,193 @@
+2023-08-11 14:44:40.111 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-11 14:44:40.200 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-11 14:44:40.200 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-11 14:44:40.200 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-11 14:44:40.200 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-11 14:44:40.253 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-11 14:44:40.602 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 534753234.
+2023-08-11 14:44:40.603 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-11 14:44:40.669 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-11 14:44:40.691 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-11 14:44:40.696 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-11 14:44:40.697 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-11 14:44:40.697 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-11 14:44:40.697 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-11 14:44:40.698 [main] DEBUG member2.selectAll - <==      Total: 4
+2023-08-11 14:44:40.699 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-11 14:44:40.699 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-17 08:30:28.761 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:30:28.857 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:30:28.857 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:30:28.857 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:30:28.857 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:30:28.917 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:30:29.262 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 172699023.
+2023-08-17 08:30:29.264 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-17 08:30:29.329 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-17 08:30:29.356 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:30:29.360 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-17 08:30:29.361 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-17 08:30:29.362 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:30:29.362 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-17 08:30:29.362 [main] DEBUG member2.selectAll - <==      Total: 4
+2023-08-17 08:30:29.363 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:30:29.363 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 172699023 to pool.
+2023-08-17 08:30:42.011 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:30:42.011 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 172699023 from pool.
+2023-08-17 08:30:42.012 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:30:42.012 [main] DEBUG member2.checkPost - ==>  Preparing: SELECT COUNT(*) AS CNT FROM JDBC_BOARD WHERE BOARD_NO = ? 
+2023-08-17 08:30:42.012 [main] DEBUG member2.checkPost - ==> Parameters: 22(Integer)
+2023-08-17 08:30:42.018 [main] TRACE member2.checkPost - <==    Columns: CNT
+2023-08-17 08:30:42.018 [main] TRACE member2.checkPost - <==        Row: 1
+2023-08-17 08:30:42.018 [main] DEBUG member2.checkPost - <==      Total: 1
+2023-08-17 08:30:42.018 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:30:42.018 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:30:42.018 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 172699023 to pool.
+2023-08-17 08:30:42.019 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:30:42.019 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 172699023 from pool.
+2023-08-17 08:30:42.019 [main] DEBUG member2.getBoard - ==>  Preparing: SELECT BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE FROM JDBC_BOARD WHERE BOARD_NO = ? 
+2023-08-17 08:30:42.019 [main] DEBUG member2.getBoard - ==> Parameters: 22(Integer)
+2023-08-17 08:30:42.020 [main] TRACE member2.getBoard - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:30:42.020 [main] TRACE member2.getBoard - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:30:42.020 [main] DEBUG member2.getBoard - <==      Total: 1
+2023-08-17 08:30:42.020 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:30:42.020 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 172699023 to pool.
+2023-08-17 08:34:14.995 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:34:15.083 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:34:15.083 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:34:15.083 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:34:15.083 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:35:44.055 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:35:44.142 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:35:44.142 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:35:44.142 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:35:44.142 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:35:44.197 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:35:44.546 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 172699023.
+2023-08-17 08:35:44.547 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-17 08:35:44.613 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-17 08:35:44.636 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:35:44.641 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-17 08:35:44.642 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-17 08:35:44.642 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:35:44.642 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-17 08:35:44.642 [main] DEBUG member2.selectAll - <==      Total: 4
+2023-08-17 08:35:44.643 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:35:44.643 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 172699023 to pool.
+2023-08-17 08:36:45.205 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:36:45.292 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:36:45.292 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:36:45.293 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:36:45.293 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:36:45.346 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:36:45.640 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 172699023.
+2023-08-17 08:36:45.642 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-17 08:36:45.710 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-17 08:36:45.733 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:36:45.738 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-17 08:36:45.738 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-17 08:36:45.738 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:36:45.739 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-17 08:36:45.739 [main] DEBUG member2.selectAll - <==      Total: 4
+2023-08-17 08:36:45.739 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:36:45.739 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 172699023 to pool.
+2023-08-17 08:37:09.151 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:37:09.238 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:37:09.239 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:37:09.239 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:37:09.239 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:37:09.292 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:37:09.640 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 172699023.
+2023-08-17 08:37:09.642 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-17 08:37:09.707 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-17 08:37:09.730 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:37:09.734 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-17 08:37:09.735 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-17 08:37:09.735 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:37:09.736 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-17 08:37:09.736 [main] DEBUG member2.selectAll - <==      Total: 4
+2023-08-17 08:37:09.737 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@a4b2d8f]
+2023-08-17 08:37:09.737 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 172699023 to pool.
+2023-08-17 08:38:52.224 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:38:52.314 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:38:52.314 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:38:52.315 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:38:52.315 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:39:54.974 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:39:55.062 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:39:55.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:39:55.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:39:55.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:40:07.788 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:40:07.876 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:40:07.876 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:40:07.876 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:40:07.877 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:02.118 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:41:02.205 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:02.206 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:02.206 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:02.206 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:02.261 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:41:02.610 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 534753234.
+2023-08-17 08:41:02.612 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-17 08:41:02.679 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-17 08:41:02.702 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:41:02.706 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-17 08:41:02.707 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-17 08:41:02.708 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:41:02.708 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-17 08:41:02.708 [main] DEBUG member2.selectAll - <==      Total: 4
+2023-08-17 08:41:02.709 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1fdfafd2]
+2023-08-17 08:41:02.709 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 534753234 to pool.
+2023-08-17 08:41:13.051 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:41:13.139 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:13.139 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:13.139 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:41:13.139 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:43:17.605 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-17 08:43:17.688 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:43:17.688 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:43:17.688 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:43:17.688 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-17 08:43:17.742 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:43:18.045 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 314364096.
+2023-08-17 08:43:18.046 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@12bcd0c0]
+2023-08-17 08:43:18.047 [main] DEBUG member2.insertBoard - ==>  Preparing: INSERT INTO JDBC_BOARD (BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE) VALUES (BOARD_SEQ.NEXTVAL ,? , ?, ?, sysdate) 
+2023-08-17 08:43:18.113 [main] DEBUG member2.insertBoard - ==> Parameters: qwe(String), cc(String), czz(String)
+2023-08-17 08:43:18.123 [main] DEBUG member2.insertBoard - <==    Updates: 1
+2023-08-17 08:43:18.123 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@12bcd0c0]
+2023-08-17 08:43:18.124 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@12bcd0c0]
+2023-08-17 08:43:18.124 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@12bcd0c0]
+2023-08-17 08:43:18.124 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 314364096 to pool.
+2023-08-17 08:43:19.617 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-17 08:43:19.617 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 314364096 from pool.
+2023-08-17 08:43:19.618 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-17 08:43:19.618 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-17 08:43:19.637 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-17 08:43:19.641 [main] TRACE member2.selectAll - <==        Row: 41, qwe, cc, <<BLOB>>, 2023-08-17 08:43:18
+2023-08-17 08:43:19.642 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-17 08:43:19.642 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-17 08:43:19.643 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-17 08:43:19.643 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-17 08:43:19.643 [main] DEBUG member2.selectAll - <==      Total: 5
+2023-08-17 08:43:19.644 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@12bcd0c0]
+2023-08-17 08:43:19.644 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 314364096 to pool.
+2023-08-21 20:43:52.049 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-08-21 20:43:52.133 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-21 20:43:52.133 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-21 20:43:52.133 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-21 20:43:52.133 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-08-21 20:43:52.200 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-08-21 20:43:52.567 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1491860739.
+2023-08-21 20:43:52.567 [main] DEBUG member2.selectAll - ==>  Preparing: SELECT BOARD_NO , BOARD_TITLE, BOARD_WRITER , BOARD_CONTENT , BOARD_DATE FROM JDBC_BOARD 
+2023-08-21 20:43:52.633 [main] DEBUG member2.selectAll - ==> Parameters: 
+2023-08-21 20:43:52.667 [main] TRACE member2.selectAll - <==    Columns: BOARD_NO, BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT, BOARD_DATE
+2023-08-21 20:43:52.667 [main] TRACE member2.selectAll - <==        Row: 41, qwe, cc, <<BLOB>>, 2023-08-17 08:43:18
+2023-08-21 20:43:52.667 [main] TRACE member2.selectAll - <==        Row: 21, roror, fkfnf, <<BLOB>>, 2023-08-11 08:42:17
+2023-08-21 20:43:52.667 [main] TRACE member2.selectAll - <==        Row: 3, 1230., 12123, <<BLOB>>, 2023-08-07 19:15:59
+2023-08-21 20:43:52.667 [main] TRACE member2.selectAll - <==        Row: 22, 히히, 히헤헿, <<BLOB>>, 2023-08-11 14:06:13
+2023-08-21 20:43:52.667 [main] TRACE member2.selectAll - <==        Row: 5, 기기기기, 기기기, <<BLOB>>, 2023-08-07 19:50:21
+2023-08-21 20:43:52.667 [main] DEBUG member2.selectAll - <==      Total: 5
+2023-08-21 20:43:52.667 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@58ebfd03]
+2023-08-21 20:43:52.667 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1491860739 to pool.

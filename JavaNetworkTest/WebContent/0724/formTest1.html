@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+form {
+	border: 2px solid blue;
+	display: grid;
+}
+
+form div {
+	display: flex;
+	padding : 10px;
+}
+form div p{
+	text-align:center;
+	margin : 0;
+	
+}
+
+input {
+	width: 100px;
+	margin-right:10px;
+}
+</style>
+</head>
+<body>
+	<h3>GET 방식</h3>
+	<form action="test1.jsp" method="get">
+		<div>
+			<p style="width:100px; text-align:center;">아이디</p>
+			<input type="text" name="id"> <br>
+		</div>
+		<div>
+
+			<p style="width:100px; text-align:center;">비밀번호</p>
+			<input type="password" name="pw"> <br>
+		</div>
+		<div>
+			<input type="submit">
+			<input type="reset">
+		</div>
+
+	</form>
+	
+	<h3>POST 방식</h3>
+	<form action="test1.jsp" method="post">
+		<div>
+			<p style="width:100px; text-align:center;">아이디</p>
+			<input type="text" name="id"> <br>
+		</div>
+		<div>
+			<p style="width:100px; text-align:center;">비밀번호</p>
+			<input type="password" name="pw"> <br>
+		</div>
+		<div>
+			<input type="submit">
+			<input type="reset">
+		</div>
+
+	</form>
+</body>
+</html>

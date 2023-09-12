@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+	body{
+		padding : 10px;
+	}
+	label{
+		display:inline-block;
+		width:100px;
+	}
+</style>
+</head>
+<body>
+
+	<form action="test2.jsp" method="post">
+		<label for="id">아이디</label>
+		<input type="text" id="id" name="id"><br>
+		
+		<label for="name">이름 </label>
+		<input type="text" id="name" name="name"><br>
+		
+		<label for="addr">주소 </label>
+		<input type="text" id="addr" name="addr"><br>
+		
+		<label for="tel">전화번호</label>
+		<input type="text" id="tel" name="tel"><br>
+		
+		<label>첨부파일</label>
+		<input type="file" name="file"><br>
+		
+		<label>라디오</label>
+		<input type="radio" name="radio" value="left">
+		<input type="radio" name="radio" value="right"><br>
+		
+		<label>체크박스</label> 
+		<label for="chk1">체크박스</label> 
+		<input type="checkbox" id="chk1" name="checkbox" value="chk1">
+		<label for="chk2">체크박스</label> 
+		<input type="checkbox" name="checkbox" value="chk2">
+		<input type="checkbox" name="checkbox" value="chk3"><br>
+		
+		<input type="hidden" name="age" value="20">
+		<input type="submit">
+		<input type="reset">
+	</form>
+
+</body>
+</html>

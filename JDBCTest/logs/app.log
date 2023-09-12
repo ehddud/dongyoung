@@ -1,0 +1,1 @@
+2023-08-10 14:58:04.254 [main] DEBUG log4jexam.sql.Query - SQL : INSERT INTO MYMEMBER  (MEM_ID, MEM_NAME, MEM_TEL, MEM_ADDR)  VALUES (? ,? , ?, ?)

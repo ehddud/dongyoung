@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>list1</title>
+
+<style>
+
+	*{
+		margin:0;
+		padding:0;
+		border-collapse:collapse;
+	}
+	body{
+		padding:50px;
+	}
+	
+	li{
+		list-style:none;
+		position:relative;
+		padding-left:3px;
+	}
+	
+	li a::before{
+		content:"";
+		position:absolute;
+		left:-5px;
+		top:50%;
+		transform:translateY(-50%);
+		width:0px;
+		height:80%;
+		background-color:skyblue;	
+		transition: all 0.1s;
+	}
+	
+	li a:hover::before{
+		height:80%;
+		width:3px;
+	}
+	
+	a{
+		text-decoration:none;
+		color:#333;
+	}
+	
+	.list2 li{
+		list-style-image : url(../images/check.png);
+	}	
+	.list2 li::marker{
+		width:10px;
+		height:10px;
+	}	
+</style>
+</head>
+<body>
+	<ul class="list1">
+		<li><a href="#">HTML</a></li>
+		<li><a href="#">CSS</a></li>
+		<li><a href="#">Javascript</a></li>
+		<li><a href="#">Jquery</a></li>
+		<li><a href="#">ajax</a></li>
+	</ul>
+	<ul class="list2">
+		<li><a href="#">HTML</a></li>
+		<li><a href="#">CSS</a></li>
+		<li><a href="#">Javascript</a></li>
+		<li><a href="#">Jquery</a></li>
+		<li><a href="#">ajax</a></li>
+	</ul>
+	
+	
+</body>
+</html>

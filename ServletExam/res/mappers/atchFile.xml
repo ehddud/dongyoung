@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="atchFile">
+
+	<insert id="insertAtchFile" parameterType="fileVO">
+	
+		<selectKey order="BEFORE" keyProperty="atchFileId" resultType="Long">
+			SELECT atch_file_seq.nextval FROM DUAL
+		</selectKey>
+	
+		INSERT INTO ATCH_FILE
+		(
+		ATCH_FILE_ID,
+		CREAT_DT,
+		USE_AT
+		)
+		VALUES
+		(
+		#{atchFileId},
+		SYSDATE,
+		'Y'
+		)
+
+	</insert>
+
+	<insert id="insertAtchFileDetail" parameterType="fileVO">
+		INSERT INTO ATCH_FILE_DETAIL
+		(
+		ATCH_FILE_ID,
+		FILE_SN,
+		FILE_STRE_COURS,
+		STRE_FILE_NM,
+		ORIGNL_FILE_NM,
+		FILE_EXTSN,
+		FILE_CN,
+		FILE_SIZE
+		)
+		VALUES
+		(
+		#{atchFileId},
+		(SELECT NVL(MAX(FILE_SN), 0) + 1 FROM ATCH_FILE_DETAIL
+		WHERE ATCH_FILE_ID = #{atchFileId}),
+		#{fileStreCours},
+		#{streFileNm},
+		#{orignlFileNm},
+		#{fileExtsn},
+		#{fileCn},
+		#{fileSize}
+		)
+		
+		
+	</insert>
+	
+	<resultMap type="fileVO" id="rm">
+		<result column="ATCH_FILE_ID" property="atchFileId" />
+		<result column="CREAT_DT" property="createDt" />
+		<result column="USE_AT" property="useAt" />
+		<result column="FILE_SN" property="fileSn" />
+		<result column="FILE_STRE_COURS" property="fileStreCours" />
+		<result column="STRE_FILE_NM" property="streFileNm" />
+		<result column="ORIGNL_FILE_NM" property="orignlFileNm" />
+		<result column="FILE_EXTSN" property="fileExtsn" />
+		<result column="FILE_CN" property="fileCn" />
+		<result column="FILE_SIZE" property="fileSize" />
+	</resultMap>
+	<select id="getAtchFileList" resultMap="rm">
+		
+		SELECT * FROM ATCH_FILE_DETAIL
+		WHERE ATCH_FILE_ID = #{atchFileId}
+		
+	</select>
+	
+	
+	<!-- 특정한 리스트중에 하나 클릭 할 때 그걸 다운로드 하기 위해 -->
+	<select id="getAtchFileDetail" resultMap="rm">
+		
+		SELECT * FROM ATCH_FILE_DETAIL
+		WHERE ATCH_FILE_ID = #{atchFileId}
+			AND FILE_SN = #{fileSn}
+		
+	</select>
+
+
+</mapper>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>My html</title>
+<link rel="stylesheet" href="" />
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+body {
+	background-color: #e6e6e6;
+}
+
+.wrap {
+	position: relative;
+}
+
+.box {
+	font-size: 40px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	text-align: center;
+}
+
+.box p {
+	font-size: 0.3rem;
+}
+
+.click2 {
+	transition: all 0.4s;
+}
+
+.box2 {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	transition: all 0.4s;
+	position: absolute;
+}
+
+.clicked {
+	background-color: red;
+	border: 1px solid skyblue;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@
+keyframes move { 0% {
+	top: 0px;
+	left: 0px;
+}
+
+25
+
+
+%
+{
+top
+
+
+:
+
+
+100px
+;
+
+
+left
+
+
+:
+
+
+100px
+;
+
+
+}
+50
+
+
+%
+{
+top
+
+
+:
+
+
+200px
+;
+
+
+left
+
+
+:
+
+
+200px
+;
+
+
+}
+75
+
+
+%
+{
+top
+
+
+:
+
+
+300px
+;
+
+
+left
+
+
+:
+
+
+300px
+;
+
+
+}
+100
+
+
+%
+{
+top
+
+
+:
+
+
+400px
+;
+
+
+left
+
+
+:
+
+
+400px
+;
+
+
+}
+}
+.under_line {
+	font-weight: bold;
+	font-size: 2rem;
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.under_line::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 4px;
+	background-color: red;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 0 5px 5px 0;
+	transition: all 0.3s;
+}
+
+.under_line:hover::before {
+	width: 120%;
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<p class="click2">click2</p>
+		<div class="box2">
+			<p>box2</p>
+		</div>
+		<div class="box">
+			<a href="https://www.naver.com" target="_blank"
+				style="display: inline-block; width: 200px; height: 100px">네이버로</a>
+			<p>box2</p>
+		</div>
+		<span>asd</span>
+	</div>
+
+	<div style="margin-bottom: 100px"></div>
+
+	<div>
+		<p class="under_line">글자1</p>
+		<p class="under_line">글자2</p>
+		<p class="under_line">글자3</p>
+	</div>
+
+	<div></div>
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let a = document.querySelector(".click2");
+    let b = document.querySelector(".box2");
+    console.log(a);
+    a.addEventListener("click", (e) => e.target.classList.toggle("box"));
+    b.addEventListener("click", (e) => {
+        e.stopPropagation;
+        e.currentTarget.classList.toggle("clicked");
+    });
+    b.addEventListener(
+        "click",
+        () => {
+            alert("알림!");
+        },
+        { once: true }
+    );
+    console.log(a);
+});
+
+</script>
+</html>
